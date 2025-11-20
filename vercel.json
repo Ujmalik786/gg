@@ -1,11 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "destination": "https://yt.webbloggin.online/nevir/",
-      "permanent": true
-    },
-    {
       "source": "/(.*)",
       "destination": "https://yt.webbloggin.online/nevir/",
       "permanent": true
