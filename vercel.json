@@ -1,13 +1,14 @@
 {
-  "version": 2,
-  "builds": [
+  "redirects": [
     {
-      "src": "api/redirect.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
+      "source": "/",
+      "destination": "https://yt.webbloggin.online/nevir/",
+      "permanent": true
+    },
     {
-      "src": "/(.*)",
-      "dest": "/api/redirect.js"
+      "source": "/(.*)",
+      "destination": "https://yt.webbloggin.online/nevir/",
+      "permanent": true
     }
+  ]
+}
