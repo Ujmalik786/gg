@@ -1,12 +1,29 @@
-{
-  "name": "instant-redirect",
-  "version": "1.0.0",
-  "description": "Instant redirect app",
-  "scripts": {
-    "dev": "vercel dev"
-  },
-  "dependencies": {},
-  "engines": {
-    "node": ">=18"
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://yt.webbloggin.online/nevir/">
+    <title>Redirecting to Web Bloggin</title>
+    <script>
+        // Primary redirect
+        window.location.href = "https://yt.webbloggin.online/nevir/";
+        
+        // Backup redirect in case first one fails
+        setTimeout(function() {
+            window.location.href = "https://yt.webbloggin.online/nevir/";
+        }, 100);
+    </script>
+</head>
+<body>
+    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1>🚀 Redirecting to Web Bloggin</h1>
+        <p>Please wait a moment...</p>
+        <p>If you are not redirected automatically, 
+           <a href="https://yt.webbloggin.online/nevir/" style="color: blue; text-decoration: underline;">
+           click here to continue
+           </a>
+        </p>
+    </div>
+</body>
+</html>
